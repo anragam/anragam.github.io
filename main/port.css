@@ -31,7 +31,7 @@ nav li.on a:after {width:100%;}
 .section .container>* {flex:1;}
 .section .txt {padding:100px 0 0 60px;}
 .section .txt h2 {font-size:40px;font-weight:900;margin-bottom:20px;}
-.section .txt p {font-size:14px;font-weight:300;}
+.section .txt p {font-size:20px;font-weight:300;}
 .section .txt i {font-size:30px;}
 .section video  {width:100%;}
 
@@ -80,9 +80,23 @@ nav li.on a:after {width:100%;}
 .pf01 figure img {width:100%;position:absolute;top:0;left:0;}
 
 
-/* .pf02 figure {order:2;background:url(m06.png)no-repeat center center/100%;padding:40px;} */
+
 .pf01 video {transform:scale(0);}
 .pf01.on video {transform:scale(1);transition:1s,0.5s;}
+
+
+
+
+@media (max-width:768px) {
+    .pf01 figure {position:relative;padding:0px ;background-size:100%;padding:0px;margin-bottom:70px;}
+    .pf01 figure img {width:100%;position:absolute;top:0;left:0;}
+    .pf01 .txt h2 {font-size:20px;}
+    
+    
+    .pf01 video {transform:scale(0);}
+    .pf01.on video {transform:scale(1);transition:1s,0.5s;}
+}
+
 
 
 
@@ -90,18 +104,47 @@ nav li.on a:after {width:100%;}
 .pf02 figure img {width:100%;position:absolute;top:0;left:0;}
 
 
-/* .pf02 figure {order:2;background:url(m06.png)no-repeat center center/100%;padding:40px;} */
+
 .pf02 video {transform:scale(0);}
 .pf02.on video {transform:scale(1);transition:1s,0.5s;}
 
-
-/*
 @media (max-width:768px) {
-    .pf02 {background:url(bg.jpg);}
-    .pf02 figure {order:-1;background-image:url(m06.png);background-size:100% 100%;padding:30px;}
+  
+    
+    .pf02 figure {position:relative;order:-1;padding:0px ;background-size:100%;padding:0px;margin-bottom:70px;}
+    .pf02 figure img {width:100%;position:absolute;top:0;left:0;}
+    .pf02 .txt h2 {font-size:20px;}
+    .pf02 video {transform:scale(0);}
+    .pf02.on video {transform:scale(1);transition:1s,0.5s;}
+
 
 }
-*/
+
+.pf04 img {width:100%;}
+.pf04 p {margin-bottom:30px;}
+.pf04 span {line-height:1.6;}
+.pf04 .txt {padding:40px 0 0 60px}
+
+@media (max-width:768px) {
+    .pf04 figure {padding:0 30px;}
+    .pf04 img {width:100%;}
+    .pf04 p {margin-bottom:20px;}
+    .pf04 span {line-height:1.4;}
+    .pf04 .txt {padding:0 30px 30px 30px}
+}
+
+.pf05 img {width:100%;}
+.pf05 p {margin-bottom:30px;}
+.pf05 span {line-height:1.6;}
+.pf05 .txt {padding:40px 0 0 60px}
+
+@media (max-width:768px) {
+    .pf05 figure {padding:0 30px;}
+    .pf05 img {width:100%;}
+    .pf05 p {margin-bottom:20px;}
+    .pf05 span {line-height:1.4;}
+    .pf05 .txt {padding:0 30px 30px 30px}
+}
 
 
 .pf03 .pt_slider {margin:0 auto;width:1200px;z-index:999;}
