@@ -5,11 +5,11 @@ $(function(){
     ////////////////////////////
     
     $("#main").fullpage({
-        anchors:['m01', 'm02' , 'm03' , 'm04' , 'm05'],
+        anchors:['m01', 'm02' , 'm03' , 'm04' , 'm05','m06','m07'],
         afterLoad: function(origin, destination, direction){
           $(".section").eq(destination.index).addClass("on").siblings().removeClass("on");
           $("nav li").eq(destination.index).addClass("on").siblings().removeClass("on");
-          if(destination.index===4) {
+          if(destination.index===6) {
             $("footer").css({color:"#fff"})
           }else{
             $("footer").removeAttr("style")
