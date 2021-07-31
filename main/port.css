@@ -3,6 +3,7 @@ header {position:fixed;top:60px;left:60px;z-index:999;}
 nav {position:fixed;bottom:60px;right:60px;z-index:999;transform:translateY(-50%);
 width:40px;}
 nav li {position:relative;}
+nav ul {margin-bottom: -40px;}
 nav li a:after {content:"";display:block;width:50%;height:3px;background:#333;
     position:absolute;top:6px;right:0;transition:0.2s;}
 nav li a {display:block;text-indent:-9999px;}
@@ -24,8 +25,8 @@ nav li.on a:after {width:100%;}
 
 
 
-
-.section {background:url(./bg.jpg);}
+/*.section {background:url(./bg2.jpg);}*/
+.section {background-color: #f2f2f2;}
 .section.on {transition:0.4s;}
 .section .container {display:flex;width:1200px;margin:0 auto;}
 .section .container>* {flex:1;}
@@ -37,7 +38,8 @@ nav li.on a:after {width:100%;}
 
 
 @media (max-width:768px) {
-    .section {background:url(bg.jpg);}
+   /*.section {background:url(./bg2.jpg);}*/
+    .section {background-color: #f2f2f2;}
     .section.on {transition:0.4s;}
     .section .container {display:flex;flex-direction:column;width:100%;margin:0 auto;}
     .section .container>* {flex:1;}
@@ -58,7 +60,7 @@ nav li.on a:after {width:100%;}
 
 
 .m01 .txt h2 {font-size:40px;font-weight:900;margin-bottom:20px;}
-.m01 .txt p {font-size:14px;font-weight:300;}
+.m01 .txt p {font-size:20px;font-weight:300;}
 .m01 .txt i {font-size:30px;}
 
 
@@ -126,37 +128,40 @@ nav li.on a:after {width:100%;}
 .pf04 .txt {padding:40px 0 0 60px}
 
 @media (max-width:768px) {
-    .pf04 figure {padding:0 30px;}
+    .pf04 figure {padding:0 30px;margin-bottom:50px;}
     .pf04 img {width:100%;}
     .pf04 p {margin-bottom:20px;}
+    .pf04 .txt h2 {font-size: 20px;}
     .pf04 span {line-height:1.4;}
     .pf04 .txt {padding:0 30px 30px 30px}
 }
 
 .pf05 img {width:100%;}
+.pf05 figure {order:2;}
 .pf05 p {margin-bottom:30px;}
 .pf05 span {line-height:1.6;}
 .pf05 .txt {padding:40px 0 0 60px}
 
 @media (max-width:768px) {
-    .pf05 figure {padding:0 30px;}
+    .pf05 figure {padding:0 30px;margin-bottom:50px;order:-1;}
     .pf05 img {width:100%;}
     .pf05 p {margin-bottom:20px;}
     .pf05 span {line-height:1.4;}
     .pf05 .txt {padding:0 30px 30px 30px}
+    .pf05 .txt h2 {font-size: 20px;}
 }
 
 
 .pf03 .pt_slider {margin:0 auto;width:1200px;z-index:999;}
 .pf03 .pt_slider figure {padding:100px 10px;}
-.pf03 .pt_slider figure img {width:100%;border-radius:50%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
+.pf03 .pt_slider figure img {width:100%;border-radius:20%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
 
 
-.pf03 {overflow:hidden;}
-.pf03 i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(45deg);font-size:1000px;cursor:pointer;}
+.pf03 {overflow:hidden;background-color:#e4d3dd;}
+.pf03 i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:120px;cursor:pointer;}
 
-.pf03 i.xi-arrow-left {color:rgb(245, 94, 94);margin-left:-600px}
-.pf03 i.xi-arrow-right {color:rgb(245, 94, 94);margin-left:600px}
+.pf03 i.xi-arrow-left {color:rgb(214, 71, 178);margin-left:-700px}
+.pf03 i.xi-arrow-right {color:rgb(214, 71, 178);margin-left:700px}
 
 
 
@@ -165,10 +170,10 @@ nav li.on a:after {width:100%;}
 @media (max-width:768px) {
     .pf03 .pt_slider {margin:0 auto;width:auto;z-index:999;}
     .pf03 .pt_slider figure {padding:30px 10px;}
-    .pf03 .pt_slider figure img {width:100%;border-radius:50%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
+    .pf03 .pt_slider figure img {width:100%;border-radius:20%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
     
     
-    .pf03 {overflow:hidden;}
+    .pf03 {overflow:hidden;background-color:#e4d3dd;}
     .pf03 i {position:absolute;top:70%;left:50%;transform:translate(-50%,-50%) rotate(0);font-size:40px;cursor:pointer;z-index:1000;}
     
     .pf03 i.xi-arrow-left {color:#333;margin-left:-150px;}
@@ -179,7 +184,7 @@ nav li.on a:after {width:100%;}
 
 .pf03 .slick-dots {text-align:center;}
 .pf03 .slick-dots button {display:none;}
-.pf03 .slick-dots li {display:inline-block;width:12px;height:12px;background:rgb(245, 94, 94);border-radius:50%;
+.pf03 .slick-dots li {display:inline-block;width:12px;height:12px;background:rgb(214, 71, 178);border-radius:50%;
 margin:30px 4px;}
 .pf03 .slick-dots li.slick-active {background:#333;}
 
@@ -232,7 +237,7 @@ footer .mbr {display:none;}
 
 
 
-#cover_nav {position:fixed;top:0;right:0;background:#f2f2f2;width:100%;height:0;overflow:hidden;transition:0.5s;z-index:1000;}
+#cover_nav {position:fixed;top:0;right:0;background:#e4d3dd;width:100%;height:0;overflow:hidden;transition:0.5s;z-index:1000;}
 #cover_nav.on {height:100vh;}
 
 
@@ -258,11 +263,11 @@ vertical-align:middle;transition:0.4s;}
 
 @media (max-width:768px) {
 
-    #cover_nav {position:fixed;top:0;right:0;background:#f2f2f2;width:100%;height:0;overflow:hidden;transition:0.5s;z-index:1000;}
+    #cover_nav {position:fixed;top:0;right:0;background:#e4d3dd;width:100%;height:0;overflow:hidden;transition:0.5s;z-index:1000;}
     #cover_nav.on {height: 100vh;}
     
     
-    #cover_nav .container {display:flex;flex-direction:column;position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%);}
+    #cover_nav .container {display:flex;flex-direction:column;position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%);margin-top: 15px;}
     #cover_nav .container>* {flex:1;padding:0 30px;}
     
     #cover_nav figure img {width:100%;border-radius:50%;overflow:hidden;}
@@ -270,11 +275,11 @@ vertical-align:middle;transition:0.4s;}
     #cover_nav .txt {margin:30px 0;}
     #cover_nav hr {margin:20px 0;border:none;border-top: 1px dashed #999}
 
-
-    #cover_nav .txt h3 {font-size:24px;font-weight:100;letter-spacing:1rem;text-transform:uppercase;margin-bottom:20px;}
+    #cover_nav .txt .proflie {margin-left: 68px;}
+    #cover_nav .txt h3 {font-size:20px;font-weight:100;letter-spacing:1rem;text-transform:uppercase;margin-bottom:20px;}
     #cover_nav .txt h3 p {font-size:14px;font-weight:300;line-height: 1.4;}
 
-    #cover_nav .link li {font-size:14px;line-height:1.4;text-transform:uppercase;}
+    #cover_nav .link li {font-size:14px;line-height:1.4;text-transform:uppercase;margin-left:68px;}
     #cover_nav .link li:before {content:"\e929";font-family:xeicon!important;margin-right:20px;color:#f00;font-size:14px;
     vertical-align:middle;transition:0.4s;}
 
