@@ -154,7 +154,7 @@ nav li.on a:after {width:100%;}
 
 .pf03 .pt_slider {margin:0 auto;width:1200px;z-index:999;}
 .pf03 .pt_slider figure {padding:100px 10px;}
-.pf03 .pt_slider figure img {width:100%;border-radius:20%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
+.pf03 .pt_slider figure img {width:100%;border-radius:5%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
 
 
 .pf03 {overflow:hidden;background-color:#e4d3dd;}
@@ -170,7 +170,7 @@ nav li.on a:after {width:100%;}
 @media (max-width:768px) {
     .pf03 .pt_slider {margin:0 auto;width:auto;z-index:999;}
     .pf03 .pt_slider figure {padding:30px 10px;}
-    .pf03 .pt_slider figure img {width:100%;border-radius:20%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
+    .pf03 .pt_slider figure img {width:100%;border-radius:5%;box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);}
     
     
     .pf03 {overflow:hidden;background-color:#e4d3dd;}
