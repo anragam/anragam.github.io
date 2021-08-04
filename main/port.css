@@ -85,7 +85,7 @@ nav li.on a:after {width:100%;}
 
 .pf01 video {transform:scale(0);}
 .pf01.on video {transform:scale(1);transition:1s,0.5s;}
-
+.pf01 .txt p {line-height: 50px;}
 
 
 
@@ -109,6 +109,7 @@ nav li.on a:after {width:100%;}
 
 .pf02 video {transform:scale(0);}
 .pf02.on video {transform:scale(1);transition:1s,0.5s;}
+.pf02 .txt p {line-height: 50px;}
 
 @media (max-width:768px) {
   
