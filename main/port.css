@@ -80,6 +80,8 @@ nav li.on a:after {width:100%;}
 
 .pf01 figure {position:relative;}
 .pf01 figure img {width:100%;position:absolute;top:0;left:0;}
+.pf01 iframe {position:absolute;padding:20px;z-index: 999;top:0;left:0;width:100%;}
+
 
 
 
@@ -90,9 +92,10 @@ nav li.on a:after {width:100%;}
 
 
 @media (max-width:768px) {
-    .pf01 figure {position:relative;padding:0px ;background-size:100%;padding:0px;margin-bottom:70px;}
+    .pf01 figure {position:relative;padding:0px ;background-size:100%;padding:0px;margin-bottom:100px;}
     .pf01 figure img {width:100%;position:absolute;top:0;left:0;}
-    .pf01 .txt h2 {font-size:20px;}
+    .pf01 iframe {position:absolute;padding:10px;z-index: 999;top:0;left:0;width:100%;height:230px;margin-bottom:300px;}
+    .pf01 .txt h2 {font-size:20px;margin-top: 80px;}
     
     
     .pf01 video {transform:scale(0);}
@@ -104,6 +107,7 @@ nav li.on a:after {width:100%;}
 
 .pf02 figure {position:relative;order:2;padding:0px;}
 .pf02 figure img {width:100%;position:absolute;top:0;left:0;}
+.pf02 iframe {position:absolute;padding:20px;z-index: 999;top:0;left:0;width:100%;}
 
 
 
@@ -114,9 +118,12 @@ nav li.on a:after {width:100%;}
 @media (max-width:768px) {
   
     
-    .pf02 figure {position:relative;order:-1;padding:0px ;background-size:100%;padding:0px;margin-bottom:70px;}
+    .pf02 figure {position:relative;order:-1;padding:0px ;background-size:100%;padding:0px;margin-bottom:100px;}
     .pf02 figure img {width:100%;position:absolute;top:0;left:0;}
-    .pf02 .txt h2 {font-size:20px;}
+    .pf02 iframe {position:absolute;padding:10px;z-index: 999;top:0;left:0;width:100%;margin-bottom: 300px;height: 230px;}
+
+
+    .pf02 .txt h2 {font-size:20px;margin-top: 80px;}
     .pf02 video {transform:scale(0);}
     .pf02.on video {transform:scale(1);transition:1s,0.5s;}
 
